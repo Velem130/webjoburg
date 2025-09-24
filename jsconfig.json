@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react"
+  },
+  "include": ["src", "src/components/.jsx"],
+  "exclude": ["node_modules", "dist", "build", ".next", ".turbo"]
+}
+
