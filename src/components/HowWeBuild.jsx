@@ -18,11 +18,12 @@ const HowWeBuild = () => {
 
       <div className="text-center mb-6">
         <button
-          onClick={toggleSteps}
-          className="bg-[#0b1120] text-red-400 px-6 py-3 rounded hover:bg-blue-900 transitiontext-base sm:px-4 sm:py-2 sm:text-xs "
-        >
-          {showSteps ? "Hide process" : "Click Me to see how we build your website"}
-        </button>
+         onClick={toggleSteps}
+         className="bg-[#0b1120] text-white px-4 py-2 text-sm rounded hover:bg-blue-900 transition w-full max-w-xs sm:max-w-md text-wrap text-center"
+                                                                     >
+                  {showSteps ? "Hide process" : "Click Me to see how we build your website"}
+       </button>
+
       </div>
 
       {showSteps && (
