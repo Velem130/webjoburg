@@ -48,9 +48,9 @@ const About2 = () => {
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-blue-600 mb-6">About Our Company</h2>
         <p className="text-gray-700 leading-relaxed text-lg">
-          WebJoburg was founded with one mission: to deliver **affordable and
-          professional web solutions** to businesses of all sizes. Our passion
-          lies in **Website Creation**, where we combine creativity, technology,
+          WebJoburg was founded with one mission: to deliver affordable and
+          professional web solutions to businesses of all sizes. Our passion
+          lies in Website Creation, where we combine creativity, technology,
           and strategy to craft websites that not only look great but also help
           our clients grow online.
         </p>

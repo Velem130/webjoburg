@@ -6,7 +6,7 @@ const testimonials = [
     name: "Noah Mathebula",
     date: "2025-07-09",
     stars: 5,
-    review: `High quality service\nProfessionalism and they update you all the until they are done with work.\nGreat job.`,
+    review: `High quality service\nProfessionalism and they update all the until they are done with work.\nGreat job.`,
     avatar: null,
   },
   {

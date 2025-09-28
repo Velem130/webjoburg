@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const faqsData = [
   {
-    question: "What services does WebCrafters provide?",
+    question: "What services does WebJoburg provide?",
     answer: "We offer website development, logo & branding, and 24/7 site maintenance services.",
   },
   {

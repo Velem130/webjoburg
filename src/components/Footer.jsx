@@ -12,7 +12,7 @@ const Footer = () => {
         
         {/* Company Info */}
         <div>
-          <h2 className="text-2xl font-bold mb-3">WebCrafters</h2>
+          <h2 className="text-2xl font-bold mb-3">WebJoburg</h2>
           <p className="text-sm">
             We design, build, and maintain modern websites with love & expertise.
             Serving clients globally since 2018.
