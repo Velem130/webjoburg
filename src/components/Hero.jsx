@@ -16,7 +16,7 @@ function Hero() {
 
         <div className="mt-12 grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           <div className="p-6 bg-[#0b1120] backdrop-blur-sm rounded-xl shadow hover:shadow-lg text-blue-900">
-            <h3 className="text-xl font-semibold text-blue-600">Web Development</h3>
+            <h3 className="text-xl font-semibold text-red-400">Web Development</h3>
             <p className="mt-2 text-white">Custom websites that load fast and look great.</p>
           </div>
           <div className="p-6 bg-white/90 backdrop-blur-sm rounded-xl shadow hover:shadow-lg text-blue-900">
