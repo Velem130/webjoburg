@@ -1,9 +1,6 @@
-// components/Footer.jsx
-
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-
 
 const Footer = () => {
   return (
@@ -12,10 +9,10 @@ const Footer = () => {
         
         {/* Company Info */}
         <div>
-          <h2 className="text-2xl font-bold mb-3">WebJoburg</h2>
+          <h2 className="text-2xl font-bold mb-3">VisaDocs Solutions</h2>
           <p className="text-sm">
-            We design, build, and maintain modern websites with love & expertise.
-            Serving clients globally since 2018.
+            We provide professional assistance for visa applications, travel documentation,
+            and job or academic document preparation. Helping clients submit complete and accurate documents since 2023.
           </p>
         </div>
 
@@ -23,10 +20,10 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-3">Our Services</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="#webdev" className="hover:underline">Web Development</a></li>
-            <li><a href="#branding" className="hover:underline">Logo & Branding</a></li>
-            <li><a href="#maintenance" className="hover:underline">Maintenance</a></li>
-            <li><a href="#consulting" className="hover:underline">Consulting</a></li>
+            <li><a href="#visa" className="hover:underline">Visa Application Support</a></li>
+            <li><a href="#travel" className="hover:underline">Travel Itineraries & Accommodation</a></li>
+            <li><a href="#jobdocs" className="hover:underline">Job Application Documents</a></li>
+            <li><a href="#academic" className="hover:underline">Academic Documentation</a></li>
           </ul>
         </div>
 
@@ -35,16 +32,16 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-3">Company</h3>
           <ul className="space-y-2 text-sm">
             <li><Link to="/about1" className="hover:underline">About Us</Link></li>
-            <li><Link to="/Prices" className="hover:underline">Prices</Link></li>
+            <li><Link to="/prices" className="hover:underline">Prices</Link></li>
             <li><Link to="/contact" className="hover:underline">Contact</Link></li>
-            <li><Link to="/Services" className="hover:underline">Services</Link></li>
+            <li><Link to="/services" className="hover:underline">Services</Link></li>
           </ul>
         </div>
 
         {/* Contact */}
         <div>
           <h3 className="text-lg font-semibold mb-3">Get in Touch</h3>
-          <p className="text-sm">Email: mlulekivelem@gmail.com</p>
+          <p className="text-sm">Email: support@visadocssolutions.com</p>
           <p className="text-sm mb-3">Phone: +27 (84) 048-9731</p>
 
           <div className="flex space-x-4 text-white text-xl">
@@ -57,10 +54,11 @@ const Footer = () => {
 
       {/* Footer bottom */}
       <div className="border-t border-white mt-10 pt-6 text-center text-sm">
-        &copy; 2025 WebJoburg. All rights reserved.
+        &copy; 2025 VisaDocs Solutions. All rights reserved.
       </div>
     </footer>
   );
 };
 
 export default Footer;
+

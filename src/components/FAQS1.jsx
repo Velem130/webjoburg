@@ -2,28 +2,28 @@ import React, { useState } from 'react';
 
 const faqsData = [
   {
-    question: "What services does WebJoburg provide?",
-    answer: "We offer website development, logo & branding, and 24/7 site maintenance services.",
+    question: "What services does VisaDocs Solutions offer?",
+    answer: "We provide professional assistance for visa applications, travel documentation, job and academic documents, including CVs, employment letters, flight itineraries, hotel bookings, and more.",
   },
   {
-    question: "How long does it take to build a website?",
-    answer: "Typical websites take 1–2 weeks depending on features and client feedback.",
+    question: "Do you guarantee visa approval?",
+    answer: "We provide complete and accurate documentation support, but we cannot guarantee visa approval, as the final decision rests with the embassy or consulate.",
   },
   {
-    question: "Do you offer ongoing support?",
-    answer: "Yes, we provide continuous support, updates, and security maintenance.",
+    question: "How long does it take to prepare documents?",
+    answer: "Document preparation typically takes 1–3 business days, depending on the complexity and the number of documents required.",
   },
   {
-    question: "Can I update my site after it's built?",
-    answer: "Absolutely. We can build sites with CMS integration so you can make updates easily.",
+    question: "Can you help with job application documents?",
+    answer: "Yes! We assist with CVs, offer letters, salary slips, reference letters, and other employment-related documents to ensure your application is professional and complete.",
   },
   {
-    question: "Is SEO included in your packages?",
-    answer: "Basic SEO is included in all packages. We also offer advanced SEO services separately.",
+    question: "Do you provide travel itineraries and hotel bookings?",
+    answer: "Absolutely. We create flight itineraries, hotel bookings, and complete travel plans that meet embassy requirements for visa applications.",
   },
   {
-    question: "How do I get a quote?",
-    answer: "Click the 'Get a Quote' button at the top or contact us via the Contact section.",
+    question: "How can I get started?",
+    answer: "Simply click the 'Get Started' button or contact us through our website. We'll guide you step by step to prepare all your documents quickly and professionally.",
   },
 ];
 

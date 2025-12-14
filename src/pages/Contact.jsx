@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { FaPhoneAlt, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 
@@ -71,32 +70,32 @@ const Contact = () => {
           <div className="w-full h-64 mb-6">
             <img
               src="/boss.jpg"
-              alt="Boss"
+              alt="Team Lead"
               className="w-full h-full object-cover rounded-md shadow-lg"
             />
           </div>
 
-          <h2 className="text-4xl font-bold mb-4 text-blue-600">Contact Us</h2>
-          <p className="text-lg mb-6 bg-black text-bold bg-clip-text text-transparent">
-            Let's start a conversation! Reach out to us via phone, email, or WhatsApp.
+          <h2 className="text-4xl font-bold mb-4 text-lime-400">Contact Us</h2>
+          <p className="text-lg mb-6">
+            Get in touch with VisaDocs Solutions! Reach us by phone, email, or WhatsApp for quick support.
           </p>
 
-          <div className="space-y-4 text-black">
+          <div className="space-y-4 text-gray-700">
             <div className="flex items-center space-x-3">
-              <FaPhoneAlt />
-              <span className="text-blue-600">+27 84 048 9731</span>
+              <FaPhoneAlt className="text-lime-400" />
+              <span className="font-medium">+27 84 048 9731</span>
             </div>
             <div className="flex items-center space-x-3">
-              <FaEnvelope />
-              <span className="text-blue-600">mlulekivelem@gmail.com</span>
+              <FaEnvelope className="text-lime-400" />
+              <span className="font-medium">mlulekivelem@gmail.com</span>
             </div>
             <div className="flex items-center space-x-3">
-              <FaWhatsapp />
+              <FaWhatsapp className="text-lime-400" />
               <a
                 href="https://wa.me/27840489731"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline hover:text-green-300 text-blue-600"
+                className="underline hover:text-green-500 font-medium"
               >
                 Chat on WhatsApp
               </a>
@@ -105,8 +104,8 @@ const Contact = () => {
         </div>
 
         {/* Right Column: Contact Form */}
-        <div className="bg-gradient-to-r from-blue-900 via-blue-600 to-blue-400 bg-[length:200%_200%] animate-gradient-x text-black p-8 rounded-md shadow-md">
-          <h3 className="text-2xl text-white font-semibold mb-6">Send us a message</h3>
+        <div className="bg-gradient-to-r from-lime-500 via-lime-400 to-lime-300 p-8 rounded-md shadow-md text-black">
+          <h3 className="text-2xl font-semibold mb-6 text-white">Send us a message</h3>
 
           <form className="space-y-4" onSubmit={handleSubmit}>
             {/* Name Fields */}
@@ -115,7 +114,7 @@ const Contact = () => {
                 type="text"
                 name="firstName"
                 placeholder="First Name"
-                className="w-full px-4 py-2 border text-white placeholder-white rounded-md focus:outline-none"
+                className="w-full px-4 py-2 border rounded-md placeholder-white text-black focus:outline-none"
                 value={formData.firstName}
                 onChange={handleChange}
                 required
@@ -124,7 +123,7 @@ const Contact = () => {
                 type="text"
                 name="lastName"
                 placeholder="Last Name"
-                className="w-full px-4 py-2 border text-white placeholder-white rounded-md focus:outline-none"
+                className="w-full px-4 py-2 border rounded-md placeholder-white text-black focus:outline-none"
                 value={formData.lastName}
                 onChange={handleChange}
                 required
@@ -136,58 +135,38 @@ const Contact = () => {
               type="email"
               name="email"
               placeholder="Email Address"
-              className="w-full px-4 py-2 border text-white placeholder-white rounded-md focus:outline-none"
+              className="w-full px-4 py-2 border rounded-md placeholder-white text-black focus:outline-none"
               value={formData.email}
               onChange={handleChange}
               required
             />
 
-            {/* Contact Preference (Radio) */}
+            {/* Contact Preference */}
             <div className="text-white">
-              <p className="font-semibold mb-2">How would you prefer to be contacted?</p>
+              <p className="font-semibold mb-2">Preferred contact method:</p>
               <div className="flex flex-col md:flex-row md:items-center md:space-x-6 space-y-2 md:space-y-0">
-                <label className="flex items-center space-x-2">
-                  <input
-                    type="radio"
-                    name="preferredContactMethod"
-                    value="Phone"
-                    checked={formData.preferredContactMethod === 'Phone'}
-                    onChange={handleChange}
-                    required
-                  />
-                  <span>Phone</span>
-                </label>
-                <label className="flex items-center space-x-2">
-                  <input
-                    type="radio"
-                    name="preferredContactMethod"
-                    value="WhatsApp"
-                    checked={formData.preferredContactMethod === 'WhatsApp'}
-                    onChange={handleChange}
-                    required
-                  />
-                  <span>WhatsApp</span>
-                </label>
-                <label className="flex items-center space-x-2">
-                  <input
-                    type="radio"
-                    name="preferredContactMethod"
-                    value="Email"
-                    checked={formData.preferredContactMethod === 'Email'}
-                    onChange={handleChange}
-                    required
-                  />
-                  <span>Email</span>
-                </label>
+                {['Phone', 'WhatsApp', 'Email'].map((method) => (
+                  <label key={method} className="flex items-center space-x-2">
+                    <input
+                      type="radio"
+                      name="preferredContactMethod"
+                      value={method}
+                      checked={formData.preferredContactMethod === method}
+                      onChange={handleChange}
+                      required
+                    />
+                    <span>{method}</span>
+                  </label>
+                ))}
               </div>
             </div>
 
-            {/* Contact Details Field */}
+            {/* Contact Details */}
             <input
               type="text"
               name="contactDetails"
-              placeholder="Enter your phone number, WhatsApp, or other contact info"
-              className="w-full px-4 py-2 border text-white placeholder-white rounded-md focus:outline-none"
+              placeholder="Phone, WhatsApp, or other contact info"
+              className="w-full px-4 py-2 border rounded-md placeholder-white text-black focus:outline-none"
               value={formData.contactDetails}
               onChange={handleChange}
               required
@@ -197,25 +176,23 @@ const Contact = () => {
             <textarea
               name="message"
               rows="4"
-              placeholder="Your Message"
-              className="w-full px-4 py-2 border rounded-md placeholder-white text-white focus:outline-none"
+              placeholder="Your message"
+              className="w-full px-4 py-2 border rounded-md placeholder-white text-black focus:outline-none"
               value={formData.message}
               onChange={handleChange}
               required
-            ></textarea>
+            />
 
             {/* Feedback Messages */}
             {status === 'success' && (
-              <p className="text-yellow-600">Message sent successfully!</p>
+              <p className="text-green-600">Message sent successfully!</p>
             )}
-            {status === 'error' && (
-              <p className="text-white">{errorMessage}</p>
-            )}
+            {status === 'error' && <p className="text-red-600">{errorMessage}</p>}
 
             {/* Submit Button */}
             <button
               type="submit"
-              className="bg-white text-blue-600 font-semibold px-4 py-2 rounded-md hover:bg-blue-700 transition text-center"
+              className="bg-white text-lime-500 font-semibold px-4 py-2 rounded-md hover:bg-lime-700 transition w-full"
             >
               Send Message
             </button>

@@ -1,12 +1,11 @@
 import React from "react";
 import Users from '../components/Users';
 
-
 const About2 = () => {
   return (
     <section className="bg-white py-16 px-6 md:px-20 pt-24">
       {/* Founders Section */}
-      <h2 className="text-4xl font-bold text-center text-blue-600 mb-12">
+      <h2 className="text-4xl font-bold text-center text-lime-400 mb-12">
         Our Founders
       </h2>
 
@@ -18,12 +17,11 @@ const About2 = () => {
             alt="Founder 1"
             className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
           />
-          <h3 className="text-xl font-semibold text-gray-800"> Pieter Van der Merwe </h3>
-          <p className="text-blue-600 font-medium mb-3">Co-Founder & CEO</p>
+          <h3 className="text-xl font-semibold text-gray-800">Pieter Van der Merwe</h3>
+          <p className="text-lime-400 font-medium mb-3">Co-Founder & CEO</p>
           <p className="text-gray-600 text-sm leading-relaxed">
-            Van der Merwe started his journey as a freelance web developer and later
-            co-founded WebJoburg to help businesses in South Africa establish
-            their online presence with modern, scalable websites.
+            Pieter has years of experience assisting clients with visas, travel documents, and employment certifications. 
+            He co-founded VisaDocs Solutions to make immigration and job documentation easier, faster, and more reliable.
           </p>
         </div>
 
@@ -35,37 +33,34 @@ const About2 = () => {
             className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
           />
           <h3 className="text-xl font-semibold text-gray-800">Zubair Muhammad Khan</h3>
-          <p className="text-blue-600 font-medium mb-3">Co-Founder & CTO</p>
+          <p className="text-lime-400 font-medium mb-3">Co-Founder & COO</p>
           <p className="text-gray-600 text-sm leading-relaxed">
-            Muhammad khan brought he's expertise in design and technology to the team,
-            ensuring that every project is not only functional but also visually
-            stunning and user-friendly.
+            Zubair brings extensive knowledge in international documentation, compliance, and customer support. 
+            His focus ensures that every client receives accurate, timely, and hassle-free visa and work permit assistance.
           </p>
         </div>
       </div>
 
       {/* About Company Section */}
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-blue-600 mb-6">About Our Company</h2>
+        <h2 className="text-3xl font-bold text-lime-400 mb-6">About VisaDocs Solutions</h2>
         <p className="text-gray-700 leading-relaxed text-lg">
-          WebJoburg was founded with one mission: to deliver affordable and
-          professional web solutions to businesses of all sizes. Our passion
-          lies in Website Creation, where we combine creativity, technology,
-          and strategy to craft websites that not only look great but also help
-          our clients grow online.
+          VisaDocs Solutions was founded to simplify the complex process of visas, work permits, and travel documentation. 
+          Our mission is to provide fast, reliable, and affordable document processing services for individuals and businesses worldwide.
         </p>
         <p className="text-gray-700 leading-relaxed text-lg mt-4">
-          From small startups to established enterprises, we provide tailored
-          solutions that focus on responsive design, speed optimization, SEO
-          setup, and user-friendly experiences. We believe every business
-          deserves a powerful online identity — and we’re here to build it.
+          From employment visas to travel documentation, we offer tailored solutions that save time and minimize stress. 
+          Our team combines expertise, technology, and customer care to ensure your documents are handled smoothly and professionally.
         </p>
       </div>
-        <Users />
+
+      {/* Users/Testimonials Section */}
+      <Users />
     </section>
   );
 };
 
 export default About2;
+
 
 

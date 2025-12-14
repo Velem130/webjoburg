@@ -1,36 +1,36 @@
 import React from 'react';
-import { FaLaptopCode, FaPaintBrush, FaRocket, FaLock, FaHandsHelping, FaGlobe } from 'react-icons/fa';
+import { FaPassport, FaPlane, FaHotel, FaFileAlt, FaBriefcase, FaUniversity } from 'react-icons/fa';
 
 const focusAreas = [
   {
-    icon: <FaLaptopCode size={24} />,
-    title: 'Web Development',
-    description: 'We build fast, scalable, and secure websites tailored to your business needs.',
+    icon: <FaPassport size={24} />,
+    title: 'Visa Application Support',
+    description: 'We help you prepare complete and accurate visa application forms for hassle-free processing.',
   },
   {
-    icon: <FaPaintBrush size={24} />,
-    title: 'Creative Design',
-    description: 'From logos to full branding systems, we help you stand out visually.',
+    icon: <FaPlane size={24} />,
+    title: 'Travel Itineraries',
+    description: 'We provide flight reservations, hotel bookings, and detailed travel plans that meet embassy requirements.',
   },
   {
-    icon: <FaRocket size={24} />,
-    title: 'Startup Support',
-    description: 'Helping startups go from idea to execution with agile, powerful digital tools.',
+    icon: <FaHotel size={24} />,
+    title: 'Accommodation Proof',
+    description: 'We assist with hotel confirmations and accommodation documents to strengthen your application.',
   },
   {
-    icon: <FaLock size={24} />,
-    title: 'Cybersecurity',
-    description: 'Protecting your digital assets with secure coding and best practices.',
+    icon: <FaFileAlt size={24} />,
+    title: 'Document Preparation',
+    description: 'From employment letters to reference letters, salary slips, and CVs, we ensure all documents are professional and complete.',
   },
   {
-    icon: <FaHandsHelping size={24} />,
-    title: 'Client Empowerment',
-    description: 'Training and tools to let you manage and grow your site with confidence.',
+    icon: <FaBriefcase size={24} />,
+    title: 'Job Application Assistance',
+    description: 'We help you prepare all work-related documents for international job applications, including offer letters and work experience certificates.',
   },
   {
-    icon: <FaGlobe size={24} />,
-    title: 'Global Reach',
-    description: 'We optimize for international scalability and multilingual expansion.',
+    icon: <FaUniversity size={24} />,
+    title: 'Academic Documentation',
+    description: 'We prepare degree certificates, diplomas, transcripts, and other academic documents for study abroad applications.',
   },
 ];
 

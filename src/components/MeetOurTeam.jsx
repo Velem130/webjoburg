@@ -1,25 +1,24 @@
-
 import React from "react";
 
 const teamMembers = [
   {
-    name: "Annelie van der Merwe",
-    role: "Creative Director",
+    name: "Aisha Khan",
+    role: "Founder & Visa Specialist",
     image: "/team1.jpg",
   },
   {
-    name: "Marnus du Plessis",
-    role: "Lead UI/UX Designer",
+    name: "David Mokoena",
+    role: "Travel Documentation Expert",
     image: "/team2.jpg",
   },
   {
-    name: "Layla Mohamed Khan",
-    role: "Front-End Developer",
+    name: "Lerato Phiri",
+    role: "Job & Academic Document Consultant",
     image: "/team3.jpg",
   },
   {
-    name: "Issa Mluleki Velem (Aka Quincy)",
-    role: "Full-Stack Developer & Branding Specialist",
+    name: "Sibusiso Dlamini",
+    role: "Client Support & Application Coordinator",
     image: "/team4.jpg",
   },
 ];
@@ -31,11 +30,10 @@ const MeetOurTeam = () => {
 
         {/* Slogan and Intro */}
         <h2 className="text-4xl font-extrabold text-white mb-4">
-          We do <span className="text-lime-400">IT</span> right.
+          Your Trusted <span className="text-lime-400">Visa & Documentation</span> Team
         </h2>
         <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-10">
-          Whatever your need, we can solve <span className="text-lime-400 font-semibold">IT</span>.
-          We design, build, and maintain websites. From modern UI/UX to full branding, we do it all.
+          At <span className="text-lime-400 font-semibold">VisaDocs Solutions</span>, we specialize in helping clients prepare complete, accurate, and embassy-ready documents for visas, travel, and job applications. Our dedicated team ensures your process is smooth, fast, and professional.
         </p>
 
         {/* Team Section Title */}

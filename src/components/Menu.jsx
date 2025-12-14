@@ -7,29 +7,28 @@ const Menu = () => {
       <h2 className="text-4xl font-bold text-[#0b1120] mb-6">Why We Do It</h2>
 
       <p className="bg-black bg-clip-text text-transparent text-lg leading-relaxed mb-4">
-        At WebJoburg, we believe that every business deserves a strong online presence.
-        We're passionate about empowering brands to tell their story through clean,
-        modern websites that are both functional and visually appealing.
+        At <strong>VisaDocs Solutions</strong>, we believe that everyone deserves a smooth and stress-free visa or job application process.
+        We're passionate about helping clients prepare complete, accurate, and embassy-ready documents for travel, work, and study abroad.
       </p>
 
       <p className="bg-black bg-clip-text text-transparent text-lg leading-relaxed mb-8">
-        We do this because we love solving real-world problems with creative digital solutions.
-        Whether it's a startup looking for identity or a growing company needing scalable infrastructure,
-        we’re here to help turn ideas into impactful experiences.
+        We do this because we understand how complex applications can be. 
+        Whether you need visa forms, travel itineraries, invitation letters, or employment documents, 
+        we’re here to guide you step by step and ensure your documents meet all official requirements.
       </p>
 
       {/* Button */}
-     
-       <Link 
-          to="/contact"
-          className="bg-[#0b1120] text-white font-semibold 
-             px-6 py-3 rounded-md hover:opacity-90 transition text-center"
->
-             Let Build Your Website
-       </Link>
+      <Link 
+        to="/contact"
+        className="bg-[#0b1120] text-white font-semibold 
+           px-6 py-3 rounded-md hover:opacity-90 transition text-center"
+      >
+        Get Started with Your Documents
+      </Link>
     </section>
   );
 };
 
 export default Menu;
+
 

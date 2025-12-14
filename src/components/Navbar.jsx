@@ -1,7 +1,6 @@
-
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { FiHexagon } from "react-icons/fi"; // 🔹 New Icon
+import { FiHexagon } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -13,29 +12,29 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
 
-          {/* Logo with Icon */}
+          {/* Logo */}
           <div className="flex flex-col items-center text-white font-bold text-xl leading-tight">
-            <Link to="/" className="flex flex-col items-center hover:text-blue-400 transition">
+            <Link to="/" className="flex flex-col items-center hover:text-lime-400 transition">
               <FiHexagon className="text-3xl mb-[-2px]" />
-              <span>Webjoburg</span>
+              <span>VisaDocs Solutions</span>
             </Link>
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
-            <Link to="/services" className="text-white hover:text-blue-900 font-medium">
+            <Link to="/services" className="text-white hover:text-lime-400 font-medium">
               Services
             </Link>
-            <Link to="/about2" className="text-white hover:text-blue-900 font-medium">
+            <Link to="/about2" className="text-white hover:text-lime-400 font-medium">
               About Us
             </Link>
-            <Link to="/prices" className="text-white hover:text-blue-900 font-medium">
-              Our Prices
+            <Link to="/prices" className="text-white hover:text-lime-400 font-medium">
+              Prices
             </Link>
-            <Link to="/contact" className="text-white hover:text-blue-900 font-medium">
+            <Link to="/contact" className="text-white hover:text-lime-400 font-medium">
               Contact
             </Link>
-            <Link to="/" className="text-white hover:text-blue-900 font-medium">
+            <Link to="/" className="text-white hover:text-lime-400 font-medium">
               Home
             </Link>
           </div>
@@ -46,9 +45,9 @@ const Navbar = () => {
               href="https://wa.me/27840489731"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-[#0b1120] font-semibold px-4 py-2 rounded-md hover:bg-blue-800 transition"
+              className="bg-lime-400 text-[#0b1120] font-semibold px-4 py-2 rounded-md hover:bg-lime-500 transition"
             >
-              Get a Quote now
+              Get Help Now
             </a>
           </div>
 
@@ -65,29 +64,29 @@ const Navbar = () => {
       {menuOpen && (
         <div className="md:hidden bg-[#0b1120] shadow-md">
           <div className="px-4 pt-4 pb-6 space-y-4 flex flex-col">
-            <Link to="/services" className="text-white hover:text-blue-900 font-medium" onClick={toggleMenu}>
+            <Link to="/services" className="text-white hover:text-lime-400 font-medium" onClick={toggleMenu}>
               Services
             </Link>
-            <Link to="/about2" className="text-white hover:text-blue-900 font-medium" onClick={toggleMenu}>
+            <Link to="/about2" className="text-white hover:text-lime-400 font-medium" onClick={toggleMenu}>
               About Us
             </Link>
-            <Link to="/prices" className="text-white hover:text-blue-900 font-medium" onClick={toggleMenu}>
+            <Link to="/prices" className="text-white hover:text-lime-400 font-medium" onClick={toggleMenu}>
               Prices
             </Link>
-            <Link to="/contact" className="text-white hover:text-blue-900 font-medium" onClick={toggleMenu}>
+            <Link to="/contact" className="text-white hover:text-lime-400 font-medium" onClick={toggleMenu}>
               Contact
             </Link>
-            <Link to="/" className="text-white hover:text-blue-900 font-medium" onClick={toggleMenu}>
+            <Link to="/" className="text-white hover:text-lime-400 font-medium" onClick={toggleMenu}>
               Home
             </Link>
             <a
               href="https://wa.me/27840489731"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-[#0b1120] font-semibold px-4 py-2 rounded-md hover:bg-blue-800 transition text-center"
+              className="bg-lime-400 text-[#0b1120] font-semibold px-4 py-2 rounded-md hover:bg-lime-500 transition text-center"
               onClick={toggleMenu}
             >
-              Get a Quote
+              Get Help Now
             </a>
           </div>
         </div>
@@ -97,6 +96,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 
