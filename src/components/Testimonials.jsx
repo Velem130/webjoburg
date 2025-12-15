@@ -10,7 +10,7 @@ const testimonials = [
     avatar: null,
   },
   {
-    name: "Thabo Mokoena",
+    name: "Daniel Brown",
     date: "2025-08-10",
     stars: 5,
     review: `I needed flight reservations and hotel bookings for my visa. They prepared everything professionally and on time. Excellent service!`,
@@ -24,14 +24,14 @@ const testimonials = [
     avatar: null,
   },
   {
-    name: "David Botha",
+    name: "Sarah Williams",
     date: "2025-08-05",
     stars: 5,
     review: `The team at VisaDocs Solutions helped me with invitation letters and travel plans. Everything was ready for my embassy appointment. Amazing support!`,
     avatar: "/review2.jpg",
   },
   {
-    name: "Lerato Khumalo",
+    name: "Emily Johnson",
     date: "2025-08-03",
     stars: 5,
     review: `Professional and reliable! My education certificates and transcripts were properly prepared for my application. Thank you, VisaDocs Solutions!`,
