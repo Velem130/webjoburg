@@ -7,7 +7,7 @@ const teamMembers = [
     image: "/team1.jpg",
   },
   {
-    name: "David Mokoena",
+    name: "David Jhon Ken",
     role: "Travel Documentation Expert",
     image: "/team2.jpg",
   },
@@ -17,7 +17,7 @@ const teamMembers = [
     image: "/team3.jpg",
   },
   {
-    name: "Sibusiso Dlamini",
+    name: "Isaac Velem Cordin",
     role: "Client Support & Application Coordinator",
     image: "/team4.jpg",
   },
