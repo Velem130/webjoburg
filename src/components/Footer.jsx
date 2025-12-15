@@ -41,7 +41,7 @@ const Footer = () => {
         {/* Contact */}
         <div>
           <h3 className="text-lg font-semibold mb-3">Get in Touch</h3>
-          <p className="text-sm">Email: support@visadocssolutions.com</p>
+          <p className="text-sm">Email: mlulekivelem@gmail.com</p>
           <p className="text-sm mb-3">Phone: +27 (84) 048-9731</p>
 
           <div className="flex space-x-4 text-white text-xl">
